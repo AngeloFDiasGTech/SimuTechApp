@@ -1,0 +1,23 @@
+{
+  "name": "ailton.simutech",
+  "displayName": "SimutechApp",
+  "version": "1.0.0",
+  "description": "Aplicativo mobile/desktop do webApp Simutech.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Ailton",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-electron": "^3.1.0"
+  },
+  "cordova": {
+    "platforms": [
+      "electron"
+    ]
+  }
+}

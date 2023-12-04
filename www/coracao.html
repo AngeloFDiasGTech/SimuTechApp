@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ausculta Cardíaca</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="stylepulmonar.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="caixa">
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="auscultapulmonar.html">Ausculta Pulmonar</a></li>
+                        <li><a href="coracao.html">Ausculta Cardíaca</a></li>
+                        <li><a href="simultaneos2.html"> Sons Simultâneos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <br>
+        <br>
+        <br>     
+
+        <section class="teclado">
+            <button class="tecla tecla_Atritopericardico">Atr/Peri</button>
+            <button class="tecla tecla_tom">0</button>
+            <button class="tecla tecla_ProlapsoValvulaMitral">ProlaMt</button>
+
+            <button class="tecla tecla_psh">0</button>
+            <button class="tecla tecla_EstenoseAortica">EsteAor</button>
+            <button class="tecla tecla_toim">0</button>
+
+            
+            <button class="tecla tecla_Murmuriodiastolico">Mur/Dia</button>
+            <button class="tecla tecla_tic">0</button>        
+            <button class="tecla tecla_MurmurioSistolico">Mur/Sis</button>
+        </section>
+
+        <br>
+        <br>
+
+        <h1>Ausculta Cardíaca</h1>
+        <br>   
+
+            <audio src="sounds/Atritopericardico.m4a" id="som_tecla_Atritopericardico"></audio>
+            <audio src="sounds/EstenoseAortica.m4a" id="som_tecla_EstenoseAortica"></audio>
+            <audio src="sounds/ProlapsoValvulaMitral.m4a" id="som_tecla_ProlapsoValvulaMitral"></audio>
+            <audio src="sounds/MurmurioSistolico.mp3" id="som_tecla_MurmurioSistolico"></audio>
+            <audio src="sounds/Murmuriodiastolico.mp3" id="som_tecla_Murmuriodiastolico"></audio>
+
+        <script src="main.js"></script>
+
+        <footer class="rodape">
+            <p>Simulatech - Simuladores e Tecnologia</p>
+
+        </footer>
+    </body>
+</html>

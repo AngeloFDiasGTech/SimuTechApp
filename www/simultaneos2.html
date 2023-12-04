@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Sons Simultâneos </title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="stylepulmonar.css">
+</head>
+
+<body>   
+
+    <header>
+        <div class="caixa">           
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="auscultapulmonar.html">Ausculta Pulmonar</a></li>
+                    <li><a href="coracao.html">Ausculta Cardíaca</a></li>
+                    <li><a href="simultaneos2.html"> Sons Simultâneos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <br>
+   
+    <br>
+
+    <h1>Ausculta Pulmonar</h1>
+
+        <section class="teclado">
+            <button class="tecla tecla_Normalbc">Normal</button>
+            <button class="tecla tecla_sibilos">Sibilos</button>
+            <button class="tecla tecla_Ronco">Ronco</button>
+        
+
+            <button class="tecla tecla_Murmuriodiastolico">0</button>        
+            <button class="tecla tecla_Estridor">Estrid</button>
+            <button class="tecla tecla_MurmurioSistolico">0</button>
+
+            <button class="tecla tecla_Pneumonia">Pneum</button>
+            <button class="tecla tecla_CrepitoFraco">CrepFra</button>
+            <button class="tecla tecla_Crepitoforte">CrepFt</button>
+        </section>
+        <br>   
+        <br>
+
+    <h1>Ausculta Cardíaca</h1>
+
+        <section class="teclado">
+            <button class="tecla tecla_Atritopericardico">Atr/Peri</button>
+            <button class="tecla tecla_tom">0</button>
+            <button class="tecla tecla_ProlapsoValvulaMitral">ProlaMt</button>
+
+            <button class="tecla tecla_psh">0</button>
+            <button class="tecla tecla_EstenoseAortica">EsteAor</button>
+            <button class="tecla tecla_toim">0</button>
+
+            
+            <button class="tecla tecla_Murmuriodiastolico">Mur/Dia</button>
+            <button class="tecla tecla_tic">0</button>        
+            <button class="tecla tecla_MurmurioSistolico">Mur/Sis</button>
+        </section>
+
+            <audio src="sounds/Normalbc.mp3" id="som_tecla_Normalbc"></audio>
+            <audio src="sounds/Sibilos.mp3" id="som_tecla_sibilos"></audio>    
+            <audio src="sounds/Ronco.mp3" id="som_tecla_Ronco"></audio>    
+            <audio src="sounds/Estridor.mp3" id="som_tecla_Estridor"></audio>
+            <audio src="sounds/CrepitoFraco.mp3" id="som_tecla_CrepitoFraco"></audio>
+            <audio src="sounds/Crepitoforte.m4a" id="som_tecla_Crepitoforte"></audio>
+            <audio src="sounds/Pneumonia.m4a" id="som_tecla_Pneumonia"></audio>
+
+
+            <audio src="sounds/Atritopericardico.m4a" id="som_tecla_Atritopericardico"></audio>
+            <audio src="sounds/EstenoseAortica.m4a" id="som_tecla_EstenoseAortica"></audio>
+            <audio src="sounds/ProlapsoValvulaMitral.m4a" id="som_tecla_ProlapsoValvulaMitral"></audio>
+            <audio src="sounds/MurmurioSistolico.mp3" id="som_tecla_MurmurioSistolico"></audio>
+            <audio src="sounds/Murmuriodiastolico.mp3" id="som_tecla_Murmuriodiastolico"></audio>
+
+            <audio src="sounds/keyq.wav" id="som_tecla_pom"></audio>
+            <audio src="sounds/keyw.wav" id="som_tecla_clap"></audio>
+            <audio src="sounds/keye.wav" id="som_tecla_tim"></audio>
+            <audio src="sounds/keya.wav" id="som_tecla_puff"></audio>
+            <audio src="sounds/keys.wav" id="som_tecla_splash"></audio>
+            <audio src="sounds/keyd.wav" id="som_tecla_toim"></audio>
+            <audio src="sounds/keyz.wav" id="som_tecla_psh"></audio>
+            <audio src="sounds/keyx.wav" id="som_tecla_tic"></audio>
+            <audio src="sounds/keyc.wav" id="som_tecla_tom"></audio>
+
+        <br>     
+    
+        <script src="main.js"></script>
+        <br>
+        <br>
+    <footer class="rodape">
+        <p>Simulatech - Simuladores e Tecnologia</p>
+    </footer>
+    </body>
+</html>
